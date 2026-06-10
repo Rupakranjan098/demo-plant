@@ -6,6 +6,7 @@ import CategoryCarousel from './components/CategoryCarousel';
 import PromiseSection from './components/PromiseSection';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 import './App.css';
 import { Truck } from 'lucide-react';
 
@@ -24,6 +25,7 @@ function App() {
         <Newsletter />
       </main>
       <Footer />
+      <Chatbot />
     </div>
   );
 }
